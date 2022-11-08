@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height: 130px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+header > ul{
+    display: flex;
+    list-style: none;
+}
+header > ul > li{
+    margin-right: 20px;
+}
+header > ul > li > a{
+    text-decoration: none;
+    color:white;
+}
+.logo{
+    height: 115px;
+    width: 80px;
+}
+/*main*/
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+   height: 740px;
+   background-color: black;
+}
+h2 {
+    text-align: center;
+    padding-top: 30px;
+    color:white;
+    font-family: Dancing Script;
+    font-size: 25px;
+}
+.resim{
+    height: 570px;
+    background-image: url("resimler/resim.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 490px;
+}
+header > ul > li > a:hover{
+  background-color: white;
+  border-radius: 10px;
+  color:black;
+  padding: 10px;
+}
